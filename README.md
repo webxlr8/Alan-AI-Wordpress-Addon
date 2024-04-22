@@ -1,9 +1,8 @@
 # Alan AI Chatbot WordPress Plugin
 
-![Alan AI Logo](https://assets-global.website-files.com/64ec3fc5bb945b48c0a37b1c/64ec859abeec7a9efe7eef25_logo.svg)
-
-**Contributors:** webxlr8.com  
+![Alan AI Logo](https://assets-global.website-files.com/64ec3fc5bb945b48c0a37b1c/64ec859abeec7a9efe7eef25_logo.svg) 
 **Tags:** AI, Chatbot, Alan  
+**Version:** 1.0.1
 **Requires at least:** 5.0  
 **Tested up to:** 6.5.2  
 **Requires PHP:** 7.2  
