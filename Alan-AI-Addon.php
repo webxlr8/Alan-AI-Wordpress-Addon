@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Alan AI Chatbot for WordPress
+ * Plugin Name: Alan AI Chatbot
  * Plugin URI: https://webxlr8.com
  * Description: This plugin integrates the Alan AI Chatbot into your WordPress website.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: webxlr8.com
  * Author URI: https://webxlr8.com
  */
@@ -41,7 +41,7 @@ function alan_ai_chatbot_addon_settings_page() {
         return;
     }
 
-    if (isset($_POST['alan_ai_chatbot_api_key'])) {
+    if (isset($_POST['alan_ai_chatbot_api_key']) && wp_verify_nonce($_POST['_wpnonce'], 'alan_ai_chatbot_nonce')) {
         update_option('alan_ai_chatbot_api_key', sanitize_text_field($_POST['alan_ai_chatbot_api_key']));
     }
 
@@ -51,6 +51,7 @@ function alan_ai_chatbot_addon_settings_page() {
     <div class="wrap">
         <h1>Alan AI Chatbot Addon Settings</h1>
         <form method="post" action="">
+            <?php wp_nonce_field('alan_ai_chatbot_nonce', '_wpnonce'); ?>
             <label for="alan_ai_chatbot_api_key">API Key:</label>
             <input type="text" name="alan_ai_chatbot_api_key" id="alan_ai_chatbot_api_key" value="<?php echo esc_attr($api_key); ?>">
             <?php submit_button('Save Settings'); ?>
