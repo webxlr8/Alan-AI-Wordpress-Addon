@@ -1,19 +1,18 @@
 === Alan AI Chatbot ===
-Contributors: (fill in with your wordpress.org user ID(s))
-Donate link: http://example.com/ (replace with your donation link if applicable)
+Contributors: webxlr8
 Tags: ai, chatbot, alan
 Requires at least: 5.0
-Tested up to: 6.5.2
-Stable tag: 1.0.1
-License: GPL-3.0 (GNU General Public License v3.0)
+Tested up to: 6.6
+Stable tag: 1.0.2
+License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Requires PHP: 7.2
 
-Short Description: A WordPress plugin to integrate the Alan AI conversational AI platform into your website, enabling an interactive voice experience for your users.
+Short Description: Integrate the Alan AI conversational AI platform into your website for an interactive voice experience.
 
 == Description ==
 
-The Alan AI Chatbot plugin seamlessly integrates the Alan AI conversational AI platform into your WordPress website, enabling an interactive voice experience for your users. Alan AI is a versatile Actionable AI Platform designed for swift integration of AI assistants into any application or website. Optimized for enterprise deployments, it equips businesses with a comprehensive toolkit to enhance user experience and streamline operations. From building and testing AI assistants to analyzing conversational data and planning future updates, Alan AI's cloud infrastructure provides immediate access to advanced AI tools and services, ensuring flexibility, security, and high performance.
+The Chatbot Addon for Alan AI plugin seamlessly integrates the Alan AI conversational AI platform into your WordPress website, enabling an interactive voice experience for your users. Alan AI is a versatile Actionable AI Platform designed for swift integration of AI assistants into any application or website. Optimized for enterprise deployments, it equips businesses with a comprehensive toolkit to enhance user experience and streamline operations. From building and testing AI assistants to analyzing conversational data and planning future updates, Alan AI's cloud infrastructure provides immediate access to advanced AI tools and services, ensuring flexibility, security, and high performance.
 
 == Installation ==
 
@@ -48,11 +47,15 @@ Yes, Alan AI offers analytics and insights into user interactions. Visit the Ala
 
 
 == Changelog ==
+= 1.0.2 (2024-07-23)
+
+Fixed: Invalid SPDX license identifier in the readme file.
 
 = 1.0.1 (2024-04-22)
 
 Fixed: Missing Nonce Verification.
 Fixed: Trademarked Term Usage in Plugin Name.
+
 = 1.0 (2024-01-29)
 
 Initial release.

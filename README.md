@@ -1,13 +1,14 @@
 # Alan AI Chatbot WordPress Plugin
 
 ![Alan AI Logo](https://assets-global.website-files.com/64ec3fc5bb945b48c0a37b1c/64ec859abeec7a9efe7eef25_logo.svg) 
-**Tags:** AI, Chatbot, Alan  
+
 **Version:** 1.0.1
 **Requires at least:** 5.0  
 **Tested up to:** 6.5.2  
 **Requires PHP:** 7.2  
-**Stable tag:** 1.0.1  
-**License:** [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
+**Stable tag:** 1.0.2  
+**License:** GPL-3.0-or-later
+**License URI:** https://www.gnu.org/licenses/gpl-3.0.html
 
 ## Description
 

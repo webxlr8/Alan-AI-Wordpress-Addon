@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Alan AI Chatbot
+ * Plugin Name: Chatbot Addon for Alan AI
  * Plugin URI: https://github.com/webxlr8/Alan-AI-Wordpress-Addon
- * Version: 1.0.1
+ * Version: 1.0.2
  * Tags: AI, Chatbot, Alan
  * Requires at least: 6.3
  * Requires PHP: 7.0
@@ -11,8 +11,8 @@
  * Description: This plugin integrates the Alan AI Chatbot into your WordPress website.
  * Author: webxlr8.com
  * Author URI: https://webxlr8.com
- * License: GPLv2 or later
- * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * License: GPL-3.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * 
  */
 
